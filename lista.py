@@ -28,3 +28,16 @@ def maior(lista):
 print(maior(pares))
 print(maior(impares))
 print(maior([3, 7, 11, 1, 8, 5, 19, 2, 0, 5, 6, 17]))
+
+# Exercicio 3:
+# Fazer uma função que receba uma lista de strings e devolva a maior
+nomes = ["filipa", "mario", "margarida", "leo", "clara", "mariana", "carolina", "olivia"]
+def comprida(lista):
+    comp = ""
+    for nome in lista:
+        if len(nome) > len(comp):
+            comp = nome
+
+    return comp, len(comp)
+
+print(comprida(nomes))

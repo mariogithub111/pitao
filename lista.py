@@ -72,3 +72,33 @@ def curta(lista):
     return curt
 
 print(curta(nomes))
+
+
+# Exercicio 6: Fazer uma função que receba uma lista de inteiros e remova os repetidos
+# Exemplo de lista = [2, 6, 4, 7, 2, 1, 3, 7, 2, 0, 9, 6, 6, 1, 3, 5]
+def rep(lista):
+    elementos = {}  # Exemplo de dicionarios: {"chave": "valor", "key": "value"}
+
+    for elemento in lista:
+        elementos[elemento] = True  # {2: True} ; {2: True, 6: True}; {2: True, 6: True, 4: True}
+
+    return list(elementos.keys())
+
+print(rep([2, 6, 4, 7, 2, 1, 3, 7, 2, 0, 9, 6, 6, 1, 3, 5]))
+
+# Exercicio 7: Fazer uma função que receba uma lista de inteiros e
+# retorna um dicionario com quantas vezes existe cada elemento
+# Exemplo de lista = [2, 6, 4, 2, 1, 3, 7, 2, 0, 9, 6, 6, 1, 3, 5]
+def conta(lista):
+    elementos = {}
+
+    for elemento in lista:
+        if elemento in elementos:
+            # somar
+            elementos[elemento] = elementos[elemento] + 1  # {2: 2, 6: 1, 4:1}
+        else:  # Primeira vez, poe la 1
+            elementos[elemento] = 1  # {2: 1} {2: 1, 6: 1} {2: 1, 6: 1, 4: 1} {2: 2, 6: 1, 4: 1, 1: 1}
+
+    return elementos
+
+print(conta([2, 6, 4, 2, 1, 3, 7, 2, 0, 9, 6, 6, 1, 3, 5]))

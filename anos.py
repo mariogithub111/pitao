@@ -16,37 +16,3 @@ print(f'Tens {dias.days} dias')
 print(f'Tens {dias.days * 86400 + dias.seconds} segundos ')
 # Que idade tens em microssegundos?
 print(f'Tens {dias.days * 86400 * 10**6} microssegundos')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

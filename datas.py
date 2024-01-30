@@ -24,12 +24,12 @@ def idade(data_nasc):
 
     return idade
 
-print(idade(datetime(1948, 1, 23)))
-print(idade(datetime(1952, 5, 7)))
-print(idade(datetime(1977, 12, 18)))
-print(idade(datetime(1929, 8, 9)))
-print(idade(datetime(1106, 1, 1)))
-print(idade(datetime(1983, 4, 1)))
+# print(idade(datetime(1948, 1, 23)))
+# print(idade(datetime(1952, 5, 7)))
+# print(idade(datetime(1977, 12, 18)))
+# print(idade(datetime(1929, 8, 9)))
+# print(idade(datetime(1106, 1, 1)))
+# print(idade(datetime(1983, 4, 1)))
 
 
 

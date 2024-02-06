@@ -12,6 +12,9 @@ familia = {
     "leo": datetime(2014, 3, 7),
     "clara": datetime(2017, 2, 13),
     "olivia": datetime(2018, 11, 15),
+    "avo ermelinda": datetime(1892, 11, 3),
+    "avo carmo": datetime(1923, 12, 30),
+    "avo sao": datetime(1924, 9, 28),
 }
 
 # Imprimir as idades de todas as pessoas no dicionario

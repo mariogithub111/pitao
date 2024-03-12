@@ -2,16 +2,14 @@ from turtle import *
 
 
 def estrela(cor: str, fundo: str, tamanho: int, angulo: int):
-    bgcolor("yellow")
     title("Estrela")
     speed(1)
-    pensize(10)
     shape("turtle")
 
     color(cor)
-    fillcolor(fundo)
+    #fillcolor(fundo)
 
-    begin_fill()
+    #begin_fill()
 
     while True:
         forward(tamanho)
@@ -21,14 +19,14 @@ def estrela(cor: str, fundo: str, tamanho: int, angulo: int):
         if abs(pos()) < 1:  # A tartaruga esta na posicao 0, 0
             break
 
-    end_fill()
+    #end_fill()
 
 
-cor = input("Cor da linha: ")
-fundo = input("Cor do fundo: ")
-tamanho = int(input("Tamanho da linha: "))
-angulo = int(input("Ângulo: "))
-
-estrela(cor, fundo, tamanho, angulo)
-
-breakpoint()
+# cor = input("Cor da linha: ")
+# fundo = input("Cor do fundo: ")
+# tamanho = int(input("Tamanho da linha: "))
+# angulo = int(input("Ângulo: "))
+#
+# estrela(cor, fundo, tamanho, angulo)
+#
+# breakpoint()
